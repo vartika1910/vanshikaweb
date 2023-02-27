@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.speedysupplies {
+   background-color: #5AC93B;
+	color: #fff;
+	padding: 20px;
+}
+  
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+header {
+	background-color: #5AC93B;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+#featured-products {
+	margin-top: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 20px;
+	border: 1px solid #ccc;
+	vertical-align: top;
+}
+
+td img {
+	max-width: 100%;
+	height: auto;
+}
+
+td h3 {
+	margin: 10px 0;
+}
+
+td p {
+	font-weight: bold;
+}
+
